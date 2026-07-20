@@ -29,25 +29,25 @@ A Python implementation of the **Black-Scholes Options Pricing Model** for Europ
 
 ## Black-Scholes Model
 
-\[
+$$
 d_1=\frac{\ln(S/K)+(r+\frac{\sigma^2}{2})T}{\sigma\sqrt{T}}
-\]
+$$
 
-\[
+$$
 d_2=d_1-\sigma\sqrt{T}
-\]
+$$
 
 Call Price:
 
-\[
+$$
 C=S\,N(d_1)-Ke^{-rT}N(d_2)
-\]
+$$
 
 Put Price:
 
-\[
+$$
 P=Ke^{-rT}N(-d_2)-SN(-d_1)
-\]
+$$
 
 ---
 
@@ -146,11 +146,6 @@ The project estimates option prices by simulating thousands of possible future s
 ## Disclaimer
 
 This project is intended for educational purposes and demonstrates option pricing concepts using the Black-Scholes framework. It is not intended for investment or trading decisions.
-
-
-
-
-
 
 
 
