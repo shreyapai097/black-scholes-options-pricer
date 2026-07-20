@@ -86,7 +86,7 @@ The notebook requires:
 - Strike price (K)
 - Time to expiry (T)
 - Risk-free interest rate (r)
-- Volatility (sigma)
+- Volatility ($$\sigma$$)
 
 ---
 
