@@ -30,21 +30,21 @@ A Python implementation of the **Black-Scholes Options Pricing Model** for Europ
 ## Black-Scholes Model
 
 \[
-d_1 = \frac{\ln{S/K} + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}}
+d_1=\frac{\ln{S/K} + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}}
 \]
 
 \[
-d_2 = d_1 - (\sigma\sqrt{T})
+d_2=d_1 - (\sigma\sqrt{T})
 \]
 
 Call Price:
 
 \[
-C = S \cdot N(d_1) - K \cdot e^{-rT} \cdot N(d_2)
+C=S\,N(d_1) - K\,e^{-rT}\,N(d_2)
 \]
 
 \[
-P = K \cdot e^{-rT} \cdot N(-d_2) - S \cdot N(-d_1)
+P=K\,e^{-rT}\,N(-d_2) - S\,N(-d_1)
 \]
 
 
